@@ -31,3 +31,8 @@ def q_3(nums:list, target:int):
         if nums[i] + nums[i+1] + nums[i+2] == target: #  O(1)
             results.append(i) # O(1)
     return results # O(1)
+
+test_q1 = q_1("Tiberbu")
+print(test_q1)
+test_q3 = q_3([-1, 0, 7, -2, 1, 4], 6)
+print(test_q3)
