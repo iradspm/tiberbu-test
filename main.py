@@ -18,7 +18,7 @@ Output: [0] // explanation: [-1,0,7] starts at index 0
 from collections import Counter
 
 def q_1(value:str):
-    "number of times character appears in a string"
+    """number of times character appears in a string"""
     value = value.replace(" ", "").lower()
     return dict(Counter(value))
 
